@@ -1,0 +1,1 @@
+{"builders":{"configs":{}},"mixinTypes":[],"runners":{"configs":{"project:/Google%20App%20Engine%20SDK%201.9.26":{"ram":1000,"variables":{"configurationType":"python/web"},"options":{}}},"default":"system:/python/web/python27_gae_ext_libs"},"type":"GAEPython","attributes":{"language":["python"]}}
