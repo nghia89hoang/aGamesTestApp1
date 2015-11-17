@@ -11,4 +11,4 @@ class SnsAuth(webapp2.RequestHandler):
     result = authomatic.login(Webapp2Adapter(self), 'fb')
     if result:
       self.response.write('l s')
-app = webapp2.WSGIApplication([('/sns', SnsAuth)], debug=True)
+app = webapp2.WSGIApplication([('/fb', SnsAuth)], debug=True)

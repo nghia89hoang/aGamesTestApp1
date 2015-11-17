@@ -23,7 +23,7 @@ handlers:
   script: handler.RootHandler.app
 - url: /channel  
   script: handler.Channel.app
-- url: /sns
+- url: /fb
   script: sns.auth.app
 
 # Third party libraries that are included in the App Engine SDK must be listed
